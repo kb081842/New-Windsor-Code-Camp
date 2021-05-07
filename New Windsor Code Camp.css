@@ -1,3 +1,20 @@
+header
+.container
+{
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.centered
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
 body
 /*Top navigation menu */
 {
@@ -42,7 +59,7 @@ body
 {
 	background-color: turquoise;
 }
-
+/*
 .container
 {
 	position: relative;
@@ -57,7 +74,7 @@ body
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+*/
 /* Set height of body and the document to 100% to enable "full page tabs" */
 body, html {
   height: 100%;
